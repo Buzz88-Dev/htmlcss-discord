@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* header */
+header {
+    position: relative;
+    width: 100%;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 20px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* logo */
+
+.logo {
+    width: 25%;
+    float: left;
+}
+
+
+/* nav */
+nav {
+    float: left;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* accedi */
+.accedi {
+    float: left;
+    width: 25%;
+    text-align: right;
+}
+
+
+/* testo nell header */
+
+header h1 {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-align: center;
+}
+
+header p {    
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    text-align: center;
+}
+
+.first-button {
+    position: absolute;
+    width: 10%;
+    left: 40%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.second-button {
+    position: absolute;
+    width: 10%;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+/* main */
+
+.container-main {
+    background-color: red;
+}
+
+.container-main1 {
+    background-color: green;
+}
+
+.container-main2 {
+    background-color: blue;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first-col {
+    width: 60%;
+    float: left;
+}
+
+.first-col img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.second-col {
+    width: 40%;
+    float: left;
+}
+
+.container3 {
+    text-align: center;
+}
+
+.container3 img {
+    width: 80%;
+    height: auto;
+}
+
+/* main */
+footer {
+    background-color: black;
+    height: 300px;
+}
